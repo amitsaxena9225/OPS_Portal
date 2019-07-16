@@ -1,0 +1,24 @@
+<testsuite errors="0" failures="0" hostname="apples-MacBook-Pro.local" name="ops1.Automating OPS Portal" skipped="0" tests="1" time="34.050182" timestamp="2019-07-03T16:57:03.018031"><testcase classname="ops1.Automating OPS Portal" name="run a simple test" status="passed" time="34.050182"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: run a simple test
+    Given login into the ops portal ... passed in 13.917s
+    When Enter the valid user id and pwd ... passed in 20.133s
+    Then user should be able to see home page ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+No questions - Add a question
+Message: element not interactable
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.5 x86_64)
+
+GIVEN WORKING FINE
+
+]]>
+</system-out></testcase></testsuite>

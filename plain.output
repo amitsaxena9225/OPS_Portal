@@ -1,0 +1,7 @@
+Feature: Automating OPS Portal
+
+  Scenario: run a simple test
+    Given login into the ops portal ... passed in 14.083s
+    When Enter the valid user id and pwd ... passed in 20.493s
+    Then user should be able to see home page ... passed in 0.000s
+
